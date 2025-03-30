@@ -28,3 +28,22 @@ A Streamlit-powered web app that allows users to upload PDF documents, ask quest
 ```bash
 git clone https://github.com/your-username/RAG-QA-System.git
 cd RAG-QA-System
+
+pip install -r requirements.txt
+
+
+#### Frontend Run : streamlit run file_name.py or python - m streamlit run file_name.py
+
+#### Bcakend Run : uvicorn file_name:fast_api_obeject_name --reaload or python - m uvicorn file_name:fast_api_obeject_name --reaload
+
+
+
+
+🏗️ Future Improvements
+✅ Implement a database (PostgreSQL, MongoDB) for persistent storage
+
+✅ Integrate LLM-powered RAG models for better Q&A responses
+
+✅ Add user authentication for secure document access
+
+✅ Deploy on AWS/GCP for cloud-based functionality
