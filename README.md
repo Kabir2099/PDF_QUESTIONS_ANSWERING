@@ -18,6 +18,7 @@ A Streamlit-powered web app that allows users to upload PDF documents, ask quest
 - **Backend:** FastAPI
 - **Storage:** Local file storage (or extend to use AWS S3, Google Cloud, etc.)
 - **AI Model:** Retrieval-Augmented Generation (RAG) (optional implementation)
+- - **LLM Model :** Cohere Model Api key . You can use other llm model (Gemini / openAi)
 
 ---
 
