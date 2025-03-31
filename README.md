@@ -33,6 +33,8 @@ cd RAG-QA-System
 pip install -r requirements.txt
 
 
+#### .env file : Add Cohere Api key -> https://cohere.com/ (create api key from here)
+
 #### Frontend Run : streamlit run file_name.py or python - m streamlit run file_name.py
 
 #### Bcakend Run : uvicorn file_name:fast_api_obeject_name --reaload or python - m uvicorn file_name:fast_api_obeject_name --reaload
